@@ -27,7 +27,7 @@
 
 * 添加飞书“已修复，见 v3.0.0”之类的评论
 
-## 一、安装飞书官方 [Meegle CLI](https://github.com/larksuite/meegle-cli/blob/main/README.zh-CN.md)
+## 一、安装飞书官方 [Meegle CLI](https://github.com/larksuite/meegle-cli/blob/main/README.zh-CN.md)（操作飞书项目缺陷）
 
 终端执行如下命令安装，期间终端会输出授权地址或二维码，用浏览器打开授权地址或手机飞书扫码，使用接收 bug 的飞书账号完成授权，授权完成后回到终端，等待安装命令结束
 
