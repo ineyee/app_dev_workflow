@@ -80,7 +80,7 @@ fastlane init
 # ============================== 
 app_identifier("com.auditoryworks.nearstreams")
 
-# ============================== 
+# ==============================
 # 2、Apple Developer 团队 ID
 # 哪里找？登录 Apple Developer 网站：Account → Membership Details → Team ID（10 位的字母数字组合）
 # ============================== 

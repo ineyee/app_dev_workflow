@@ -50,8 +50,16 @@
 
 ## 5️⃣【改 BUG 阶段】一键改 BUG + 自动提交 + 自动修改飞书状态和添加评论
 
-我们编写了一个 bug-fix Skill，以便直接在 Codex 里通过显示调用或意图识别的方式触发这个 Skill 来发起一键改 BUG。
+我们编写了一个 `bug-fix` Skill，以便直接在 Codex 里通过显示调用或意图识别的方式触发这个 Skill 来发起一键改 BUG。
 
 ![](img/7c6f786e8ecb599bc1c283a3d2678f1705d9545c.png)
 
 ![](img/085b7aef24f84f88d481b60b3f01f0173b515ff1.png)
+
+## 6️⃣【发版阶段】一键打包 + 上传 App Store Connect
+
+我们编写了一个 `app-store-ios` Skill，以便直接在 Codex 里通过显示调用或意图识别的方式触发这个 Skill 来发起一键打包 + 上传 App Store Connect，而不用每次都去终端里敲命令，另外一个 `app-store-android` Skill 同理。`为了确保提审版本信息没有错误，我们没有设计自动提交审核，还是由人工发起提交审核。`
+
+![](img/708925a3a52812b433586370a4dcf8be01e05397.png)
+
+![](img/99357b2b5591c2f8c12ebbb09a6df801d2833509.png)
