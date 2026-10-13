@@ -29,3 +29,11 @@
 ![](img/208acb7b213dc4e3aba8356214e3070b718e5ae6.png)
 
 ![](img/37518223db1295bef8ce8cc1097bb3c6aa842613.png)
+
+## 【改 BUG 阶段】一键改 BUG + 自动提交 + 自动修改飞书状态和添加评论
+
+我们编写了一个 bug-fix Skill，以便直接在 Codex 里通过显示调用或意图识别的方式触发这个 Skill 来发起一键改 BUG。
+
+![](img/7c6f786e8ecb599bc1c283a3d2678f1705d9545c.png)
+
+![](img/085b7aef24f84f88d481b60b3f01f0173b515ff1.png)
