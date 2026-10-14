@@ -56,18 +56,70 @@
 
 ![](img/085b7aef24f84f88d481b60b3f01f0173b515ff1.png)
 
-## 6️⃣【发版阶段】一键打包 + 上传 App Store Connect
+## 6️⃣【发版阶段 ①】一键打包 + 上传 App Store Connect
 
 我们编写了一个 `app-store-ios` Skill，以便直接在 Codex 里通过显示调用或意图识别的方式触发这个 Skill 来发起一键打包 + 上传 App Store Connect，而不用每次都去终端里敲命令，另外一个 `app-store-android` Skill 同理。`为了确保提审版本信息没有错误，我们没有设计自动提交审核，还是由人工提交审核，并且一定记得执行完“一键修改 mosapi 审核版本号”后再人工提交审核。`
+
+```
+中文 Realease Note：
+新功能
+* 支持台球记分牌
+漏洞修复
+* 修复一些已知问题
+
+英文 Realease Note：
+New Features
+* Support billiards scoreboard
+Bug Fixes
+* Fix some known issues
+```
 
 ![](img/708925a3a52812b433586370a4dcf8be01e05397.png)
 
 ![](img/99357b2b5591c2f8c12ebbb09a6df801d2833509.png)
 
-## 7️⃣【发版阶段】一键修改 mosapi 审核版本号
+## 7️⃣【发版阶段 ②】一键修改 mosapi 审核版本号
 
 我们编写了一个 `nearstream-change-review-status` Skill，以便直接在 Codex 里通过显示调用或意图识别的方式触发这个 Skill 来发起一键修改 mosapi 审核版本号。`修改成功后记得人工提交审核。`
 
 ![](img/74d9e1de7db9095080e6d3902a8bb283dbd03071.png)
 
 ![](img/a2788754098addadcca2c86aa16d4e60c88edc57.png)
+
+## 8️⃣【发版阶段 ③】一键修改 mosapi 线上版本号 + release note + 通知企微
+
+我们编写了一个 `nearstream-change-online-status` Skill，以便直接在 Codex 里通过显示调用或意图识别的方式触发这个 Skill 来发起一键修改 mosapi 线上版本号 + release note + 通知企微。
+
+```
+修改线上版本号：1.0.0
+
+中文发版内容：
+-----------
+## v3.5.2
+
+#### 新功能
+* 支持 UAC/UVC 设备接入（如 USB 摄像头、麦克风）
+#### 漏洞修复
+* 修复一些已知问题
+
+***
+
+-----------
+
+英文发版内容：
+-----------
+## v3.5.2
+
+#### New Features
+* Support UAC/UVC device access​ (e.g., USB cameras, microphones)
+#### Bug Fixes
+* Fix some known issues
+
+***
+
+-----------
+```
+
+![](img/53c8e4c284b00b3b2cbf2e93c0a7e3983850e4a0.png)
+
+![](img/b59af7a557b8718fd6fe50d9c6f52ed133d722da.png)
