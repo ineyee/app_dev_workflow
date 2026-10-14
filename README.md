@@ -58,8 +58,16 @@
 
 ## 6️⃣【发版阶段】一键打包 + 上传 App Store Connect
 
-我们编写了一个 `app-store-ios` Skill，以便直接在 Codex 里通过显示调用或意图识别的方式触发这个 Skill 来发起一键打包 + 上传 App Store Connect，而不用每次都去终端里敲命令，另外一个 `app-store-android` Skill 同理。`为了确保提审版本信息没有错误，我们没有设计自动提交审核，还是由人工发起提交审核。`
+我们编写了一个 `app-store-ios` Skill，以便直接在 Codex 里通过显示调用或意图识别的方式触发这个 Skill 来发起一键打包 + 上传 App Store Connect，而不用每次都去终端里敲命令，另外一个 `app-store-android` Skill 同理。`为了确保提审版本信息没有错误，我们没有设计自动提交审核，还是由人工提交审核，并且一定记得执行完“一键修改 mosapi 审核版本号”后再人工提交审核。`
 
 ![](img/708925a3a52812b433586370a4dcf8be01e05397.png)
 
 ![](img/99357b2b5591c2f8c12ebbb09a6df801d2833509.png)
+
+## 7️⃣【发版阶段】一键修改 mosapi 审核版本号
+
+我们编写了一个 `nearstream-change-review-status` Skill，以便直接在 Codex 里通过显示调用或意图识别的方式触发这个 Skill 来发起一键修改 mosapi 审核版本号。`修改成功后记得人工提交审核。`
+
+![](img/74d9e1de7db9095080e6d3902a8bb283dbd03071.png)
+
+![](img/a2788754098addadcca2c86aa16d4e60c88edc57.png)
