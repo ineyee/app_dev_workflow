@@ -60,6 +60,12 @@ meegle auth status --format json
 # }
 ```
 
+如果将来飞书授权过期了，终端执行如下命令扫码或获取 URL 重新授权
+
+```shell
+meegle auth login --host project.feishu.cn --device-code
+```
+
 注意：安装完成后，确认下本机上有没有成功安装 meegle 这个 Skill
 
 ![](img/3fca6bd1fb7082cefaa2b731f50caefe793c4120.png)

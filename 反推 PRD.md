@@ -24,6 +24,15 @@ meegle auth status --format json
 # 输出中应包含成功状态和已授权权限
 ```
 
+如果将来飞书授权过期了，终端执行如下命令获取 json 里的 verification_url 重新授权
+
+```shell
+lark-cli auth login \
+  --scope "wiki:space:retrieve" \
+  --no-wait \
+  --json
+```
+
 注意：安装完成后，确认下本机上有没有成功安装一堆 lark Skill
 
 ![](img/2ea89a1d68ef32ecd86d2d258f04a7b2ae940484.png)
@@ -187,7 +196,6 @@ def main(argv: list[str] | None = None) -> int:
 
 if __name__ == "__main__":
     raise SystemExit(main())
-
 ```
 
 ![](img/3b3efc9ea5346acd2eb40ab65abfb9c656822d6c.png)
