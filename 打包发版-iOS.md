@@ -318,7 +318,7 @@ platform :ios do
         metadata_path: metadata_path,
         skip_screenshots: true,
         submit_for_review: false,
-        automatic_release: false,
+        automatic_release: true,
         force: true
       )
 
